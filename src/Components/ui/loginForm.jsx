@@ -48,7 +48,10 @@ export default function LoginForm({ setLogIN }) {
   }
 
   return (
-    <div className="h-screen absolute top-0 left-0 right-0 z-50 flex items-center justify-center backdrop-blur-xl">
+    <div
+      onClick={() => setLogIN((login) => !login)}
+      className="h-screen absolute top-0 left-0 right-0 z-80 flex items-center justify-center backdrop-blur-xl"
+    >
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}

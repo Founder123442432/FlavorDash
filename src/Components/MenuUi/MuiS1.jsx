@@ -1,4 +1,4 @@
-import menuVid from "/src/assets/videos/video5.mp4";
+import menuVid from "/src/assets/videos/video7.mp4";
 export default function MenuS1() {
   return (
     <div className="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">

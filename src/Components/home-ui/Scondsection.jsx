@@ -1,5 +1,5 @@
 import VideoCard from "./videocard";
-import video from "/src/assets/videos/video5.mp4";
+import video from "/src/assets/videos/video7.mp4";
 
 import { motion } from "framer-motion";
 
