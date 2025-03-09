@@ -26,14 +26,14 @@ export default function SmMsSidebar({ setSmsb, Smsb, setFilters, Filters }) {
     <>
       <div
         onClick={() => setSmsb(!Smsb)}
-        className="w-full lg:hidden fixed  bottom-0 right-0 left-0 z-55 top-0   backdrop-blur-2xl"
+        className="w-full lg:hidden fixed   bottom-0 right-0 left-0 z-55 top-0   backdrop-blur-2xl"
       ></div>
       <motion.aside
         initial={{ opacity: 0, x: -300 }}
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: -300 }}
         transition={{ duration: 0.3 }}
-        className="flex lg:hidden sm:fixed flex-col md:fixed h-screen top-0  min-w-auto border-r-1 border-gray-600 md:w-90 sm:w-auto   px-5 py-3 overflow-y-auto bg-black z-55"
+        className="flex min-w-auto sm:h-screen lg:hidden top-0 fixed flex-col md:fixed bottom-0    border-r-1 border-gray-600  sm:w-auto md:w-90   px-5 py-3 overflow-y-auto bg-black z-56"
       >
         <span className="relative border-b-1 pb-3 flex items-center text-white text-lg font-bold">
           <FiltterIcon />
