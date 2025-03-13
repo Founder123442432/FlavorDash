@@ -50,14 +50,15 @@ export default function LoginForm({ setLogIN }) {
   return (
     <div
       onClick={() => setLogIN((login) => !login)}
-      className="h-screen absolute top-0 left-0 right-0 z-80 flex items-center justify-center backdrop-blur-xl"
+      className="h-screen absolute top-0 left-0 right-0 z-70 flex items-center justify-center backdrop-blur-xl"
     >
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 0.4 }}
         exit={{ scale: 0 }}
-        className="flex  w-full max-w-sm mx-auto   rounded-lg shadow-lg bg-gray-800 lg:max-w-4xl relative"
+        onClick={(e) => e.stopPropagation()}
+        className="flex  w-full max-w-sm mx-auto z-81  rounded-lg shadow-lg bg-gray-800 lg:max-w-4xl relative"
       >
         <button
           onClick={() => setLogIN(false)}

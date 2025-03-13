@@ -18,7 +18,7 @@ export default function Dropdown() {
   }
   return (
     <div
-      className=" absolute z-50 right-0 top-18   min-w-60 bg-white shadow-md rounded-lg mt-2 divide-y divide-gray-200 dark:bg-neutral-800 dark:border dark:border-neutral-700 dark:divide-neutral-700"
+      className=" absolute z-50 right-0 top-18   min-w-60  shadow-md rounded-lg mt-2 divide-y  bg-neutral-800 border border-neutral-700 divide-neutral-700"
       role="menu"
       aria-orientation="vertical"
       aria-labelledby="hs-dropdown-with-icons"
